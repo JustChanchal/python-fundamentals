@@ -181,4 +181,84 @@ else:
     print("Odd number")
 ```
 
+# Loops in Python
+
+Loops are used to execute a block of code multiple times.
+
+---
+
+## 1. `for` Loop
+
+A `for` loop is used to iterate over a sequence (like a range, list, string, etc.).
+
+```python
+for i in range(5):
+    print(i)
+```
+
+### Output
+```
+0
+1
+2
+3
+4
+```
+
+`range(5)` generates numbers from **0 to 4**.
+
+---
+
+## 2. `while` Loop
+
+A `while` loop runs as long as the condition is **True**.
+
+```python
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+```
+
+The loop stops when `count` becomes greater than 5.
+
+---
+
+## 3. Loop Through a String
+
+Strings are iterable, meaning you can loop through each character.
+
+```python
+text = "sdet"
+
+for char in text:
+    print(char)
+```
+
+Each iteration prints one character from the string.
+
+---
+
+## 4. Loop Through a List
+
+Lists can also be iterated using a `for` loop.
+
+```python
+browsers = ["chrome", "firefox", "edge"]
+
+for browser in browsers:
+    print("Running test on", browser)
+```
+
+This loop runs once for each item in the list.
+
+---
+
+## Important Notes
+
+- `for` loops are used when the number of iterations is known  
+- `while` loops are used when the number of iterations depends on a condition  
+- Always make sure `while` loops have a condition that eventually becomes False to avoid infinite loops
+
 
