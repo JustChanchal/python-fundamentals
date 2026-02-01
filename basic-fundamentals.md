@@ -230,7 +230,7 @@ The loop stops when `count` becomes greater than 5.
 Strings are iterable, meaning you can loop through each character.
 
 ```python
-text = "sdet"
+text = "chanchal"
 
 for char in text:
     print(char)
@@ -260,5 +260,88 @@ This loop runs once for each item in the list.
 - `for` loops are used when the number of iterations is known  
 - `while` loops are used when the number of iterations depends on a condition  
 - Always make sure `while` loops have a condition that eventually becomes False to avoid infinite loops
+
+
+# Functions in Python
+
+Functions are reusable blocks of code that perform a specific task.
+
+---
+
+## 1. Basic Function
+
+A simple function that runs when called.
+
+```python
+def greet():
+    print("Hello, Chanchal!")
+
+greet()
+```
+
+The function runs when `greet()` is called.
+
+---
+
+## 2. Function With Arguments
+
+Functions can accept inputs called **parameters**.
+
+```python
+def login(username, password):
+    print("Logging in with", username, password)
+
+login("user1", "pass123")
+```
+
+Here, `"user1"` and `"pass123"` are **arguments** passed to the function.
+
+---
+
+## 3. Function With Return Value
+
+Functions can return a value using the `return` keyword.
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)
+```
+
+The function calculates the sum and sends the result back.
+
+---
+
+## 4. Default Arguments
+
+Functions can have default parameter values.
+
+```python
+def launch_browser(browser="chrome"):
+    print("Launching", browser)
+
+launch_browser()
+launch_browser("firefox")
+```
+
+If no argument is provided, the default value (`"chrome"`) is used.
+
+---
+
+## Important Notes
+
+- Functions help avoid code repetition  
+- Use `return` when you need to send a value back  
+- Default arguments make functions more flexible  
+- Function names should be meaningful and follow `snake_case`
+
+
+
+
+
+
+
 
 
