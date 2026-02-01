@@ -1,4 +1,4 @@
-# Python Fundamentals 
+# Python Fundamentals(Basics)
 
 Python provides several built-in data types that are used frequently in everyday programming.
 
