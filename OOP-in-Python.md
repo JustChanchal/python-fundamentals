@@ -5,7 +5,7 @@ Classes and objects are the foundation of **Object-Oriented Programming (OOP)** 
 A **class** is like a blueprint.  
 An **object** is a real thing created from that blueprint.
 
----
+--- 
 
 ## 1. Basic Class
 
