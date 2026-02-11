@@ -34,7 +34,7 @@ We call a method using:
 my_car.start()
 ```
 
----
+--- 
 
 ## 2. Constructor (`__init__`)
 
