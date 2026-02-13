@@ -18,7 +18,7 @@ my_car = Car()
 my_car.start()
 ```
 
-### Explanation 
+### Explanation  
 
 - `Car` → **Class** (blueprint)
 - `my_car` → **Object** (instance of the class)
