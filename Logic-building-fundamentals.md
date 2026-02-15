@@ -1,6 +1,6 @@
 # Python Logic Building Questions 
 
-## 1. Even or Odd
+## 1. Even or Odd 
 
 ```python
 num = int(input("Enter number: "))
